@@ -16,7 +16,7 @@ body{  /*Este es todo el cuerpo de la página*/
 }
 
 h1{
-    color: white;
+    color: white; /*Le cambia el color al texto que contenga el encabezado*/
 }
 
 input, button{ /*No se pone punto porque no son clases, en caso de tener más de un botón e inputs, entonces si sería de gran ayuda convertirlos a clases*/ 
@@ -28,17 +28,17 @@ input, button{ /*No se pone punto porque no son clases, en caso de tener más de
 }
 
 button{
-    background-color: #ff5283;
+    background-color: #ff5283; /*Color al que se va a cambiar cuando no este posicionado encima el cursor*/
     color: white;
     cursor: pointer;
-    transition: background-color 0.3s;
+    transition: background-color 0.3s; /*Duración de animación de transición cambio de color*/
 }
 
 button:hover{
-    background-color: #ff245b;
+    background-color: #ff245b; /*Color al que se va a cambiar cuando este posicionado encima el cursor*/
 }
 
-#result{
+#result{ /*Se agrega el numeral porque se agrega el estilo al resultado de la variable*/
     font-size: 24px;
     margin-top: 20px;
 }
