@@ -4,17 +4,17 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="Styles.css" />
-    <title>Calculadora de amor</title>
+    <title>Calculadora IMC</title>
   </head>
   <body>
     <div class="container">
-      <h1>Calculadora de amor</h1>
-      <input type="text" id="name1" placeholder="Tu nombre" />
-      <input type="text" id="name2" placeholder="Nombre de tu pareja" />
-      <button onclick="calculateLove()">Calcular</button>
+      <h1>Calculadora de IMC</h1>
+      <input type="text" id="weight" placeholder="Tu peso (kg)" />
+      <input type="text" id="height" placeholder="Tu estatura (m)" />
+      <button onclick="calculateBMI()">Calcular IMC</button>
       <div id="result"></div>
+      <div id="clasification"></div>
     </div>
-
     <script src="Script.js"></script>
   </body>
 </html>

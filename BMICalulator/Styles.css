@@ -1,0 +1,49 @@
+body{  /*Este es todo el cuerpo de la página*/ 
+    font-family: 'Arial', sans-serif;  /*Para cambiar la fuente*/ 
+    display: flex;  /*Para alinear los elementos*/
+    align-items: center;  /*Para centrar los elementos*/
+    justify-content: center;  /*Justificar y centrar*/ 
+    height: 100vh;  /*Medida de lo alto*/
+    background-color: #b8cefb; /*Cambia el color de fondo*/ 
+}
+
+.container{ /*Se coloca el punto porque se utiliza toda la clase*/
+    text-align: center;  /*Alinea el texto*/ 
+    background-color: #9b92ff;  /*Cambia el color de fondo*/ 
+    padding: 40px; /*Extiende el tamaño del contenedor entre el borde y los elementos*/
+    border-radius: 20px; /*Redondea las esquinas*/
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /*Añade sombra al contendor*/ 
+}
+
+h1{
+    color: white; /*Le cambia el color al texto que contenga el encabezado*/
+}
+
+input, button{ /*No se pone punto porque no son clases, en caso de tener más de un botón e inputs, entonces si sería de gran ayuda convertirlos a clases*/ 
+    padding: 10px 15px; /*Extiende el tamaño de los elementos*/
+    margin: 10px; /*Extiende el tamaño de margen entre los elementos*/
+    border: none; /*Para quitarle el borde a los elementos*/
+    border-radius: 10px; /*Redondear las esquinas de los elementos*/
+    outline: none; /*Para quitarle el borde a los elementos, pero cuando se posiciona el cursor sobre ellos*/
+}
+
+button{
+    background-color: #526cff; /*Color al que se va a cambiar cuando no este posicionado encima el cursor*/
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s; /*Duración de animación de transición cambio de color*/
+}
+
+button:hover{
+    background-color: #2428ff; /*Color al que se va a cambiar cuando este posicionado encima el cursor*/
+}
+
+#result{ /*Se agrega el numeral porque se agrega el estilo al resultado de la variable*/
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+#clasification{ /*Se agrega el numeral porque se agrega el estilo al resultado de la variable*/
+    font-size: 24px;
+    margin-top: 20px;
+}
