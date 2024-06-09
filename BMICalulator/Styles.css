@@ -19,6 +19,10 @@ h1{
     color: white; /*Le cambia el color al texto que contenga el encabezado*/
 }
 
+label{
+    color: white; /*Le cambia el color al texto que contenga el encabezado*/
+}
+
 input, button{ /*No se pone punto porque no son clases, en caso de tener más de un botón e inputs, entonces si sería de gran ayuda convertirlos a clases*/ 
     padding: 10px 15px; /*Extiende el tamaño de los elementos*/
     margin: 10px; /*Extiende el tamaño de margen entre los elementos*/

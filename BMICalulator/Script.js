@@ -30,7 +30,7 @@ function calculateBMI(){
         }
 
         document.getElementById("result").style.color='green'
-        document.getElementById("result").textContent='Tienes un ' + bmi + ' de IMC'
+        document.getElementById("result").textContent='Tu IMC es de: ' + bmi
         document.getElementById("clasification").textContent='Estás ' + clasification
 
     } else {

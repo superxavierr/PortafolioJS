@@ -9,8 +9,10 @@
   <body>
     <div class="container">
       <h1>Calculadora de IMC</h1>
-      <input type="text" id="weight" placeholder="Tu peso (kg)" />
-      <input type="text" id="height" placeholder="Tu estatura (m)" />
+      <label>Peso:</label>
+      <input type="number" min="0.0" step="0.001" id="weight" placeholder="Tu peso (kg)" />
+      <label>Estatura:</label>
+      <input type="number" min="0.0" step="0.01" id="height" placeholder="Tu estatura (m)" />
       <button onclick="calculateBMI()">Calcular IMC</button>
       <div id="result"></div>
       <div id="clasification"></div>
