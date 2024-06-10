@@ -1,0 +1,62 @@
+body{
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ccc;
+}
+
+.container{
+    text-align: center;
+    width: 300px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0,0,0.1);
+}
+
+.colorDisplay{
+    width: 150px;
+    height: 150px;
+    margin: 20px auto;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+}
+
+.sliders{
+    display: block;
+    margin: 10px 0;
+}
+
+button{
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+}
+
+button:hover{
+    background-color: #0000ff;
+}
+
+button:active{ /*Esta sección es para hacer una animación de click en el botón*/
+background-color: #007bff; 
+}
+
+/*Esta sección es para cambiar los colores de los sliders*/
+input[id="rRange"] {
+    accent-color: #FF0000;
+}
+
+input[id="gRange"] {
+    accent-color: #008000;
+}
+
+input[id="bRange"] {
+    accent-color: #0000ff;
+}
