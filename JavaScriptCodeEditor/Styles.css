@@ -1,0 +1,56 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.editor-container{
+    max-width: 800px;
+    height: 550px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgb(0,0,0.2);
+}
+
+.editor{
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid;
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+textarea{
+    flex: 1;
+    padding: 10px;
+    border: none;
+    resize: none;
+}
+
+.output{
+    padding: 10px;
+    background-color: #f0f0f0;
+}
+
+button{
+    padding: 10px 20px;
+    margin-top: 8px;
+    background-color: #007bff;
+    border: none;
+    color: #fff;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover{
+    background-color: #0000ff;
+}
+
+button:active{
+    background-color: #007bff;
+}
